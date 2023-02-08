@@ -25,7 +25,7 @@ if (fs.existsSync("./config.yaml")) {
 }
 dotenv.config();
 
-export const config: IConfig = {
+export const confige: IConfig = {
   chatGPTAccountPool: configFile.chatGPTAccountPool as Array<IAccount>,
   chatGptRetryTimes: configFile.chatGptRetryTimes || 3,
   chatPrivateTiggerKeyword:
